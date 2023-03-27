@@ -1,47 +1,25 @@
 # html_form
 HTML_CSS
-*{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-}
-
-body{
-    background: url('./reg.jpg') no-repeat;
-    background-size: auto;
-    color: rgb(179, 255, 0);
-}
-
-.reg-form{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-}
-
-.reg-form h1{
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 30px 0;
-}
-
-.reg-form input{
-    font-size: 35px;
-    padding: 15px 10px;
-    border: 0;
-    border-radius: 10px;
-    outline: none;
-}
-
-.reg-form button{
-    font-size: 28px;
-    font-weight: bold;
-    margin: 30px 0;
-    padding: 10px 7px;
-    width: 50%;
-    border: 0;
-    border-radius: 5px;
-    background-color: #e40f0f;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Registration forom</title>
+     <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <div class="reg-form">
+        <h1>Registration Form</h1>
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="fullname" placeholder="Enter your name">
+            <p>User Name:</p>
+            <input type="text" name="username" placeholder="Enter your User name">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password:</p>
+            <input type="password" name="password" placeholder="Password">
+          <center><button type="Submit">Registration</button> </center>
+        </form> 
+    </div>
+</body>
+</html>
